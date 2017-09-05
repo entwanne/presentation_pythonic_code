@@ -174,7 +174,7 @@ for i in range(100):
 
 * Une implémentation difficile à expliquer est compliquée.
 * Le code produit sera compliqué.
-* On préférera une implémentation plus simple.
+* On préférera alors une implémentation plus simple.
 
 ## If the implementation is easy to explain, it may be a good idea.
 
@@ -193,7 +193,7 @@ for i in range(100):
 
 * Les paquets, modules et objets créent des espaces de noms.
 * Ces espaces de noms divisent les classes et fonctions en ensembles logiques.
-* Ils évidentent les conflits de noms et permettent une meilleure organisation.
+* Ils évitent les conflits de noms et permettent une meilleure organisation.
 
 ```python
 >>> import math, cmath

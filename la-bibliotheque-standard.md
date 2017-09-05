@@ -53,7 +53,8 @@ print('{} + {} = {}'.format(2, 3, 2 + 3))
 
 ```python
 >>> from collections import Counter
->>> names = ['Guido', 'Tim', 'Barry', 'Tim', 'Nick', 'Nick', 'Tim']
+>>> names = ['Guido', 'Tim', 'Barry', 'Tim', 'Nick',
+...   'Nick', 'Tim']
 >>> count = Counter(names)
 >>> count
 Counter({'Tim': 3, 'Nick': 2, 'Guido': 1, 'Barry': 1})
@@ -93,7 +94,7 @@ Counter({'Tim': 3, 'Nick': 2, 'Guido': 1, 'Barry': 1})
 
 ## Autres modules
 
-* Bien utiliser ces modules permetde se conformer aux standards du langage.
+* Bien utiliser ces modules permet de se conformer aux standards du langage.
 * Suivant le domaine d'application, d'autres modules dédiés entreront en compte :
     * `re`, `math`, `random`, `urllib`, `datetime`, `struct`, etc.
 * Référence complète de la bibliothèque standard : <https://docs.python.org/3/library/index.html>.

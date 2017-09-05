@@ -36,7 +36,7 @@ b a r
 ## Conditions
 
 * Toute valeur Python peut s'évaluer comme un booléen.
-* Il n'est alors pas nécessaire de convertir les valeurs en booléens dans mes conditions.
+* Il n'est alors pas nécessaire de convertir les valeurs en booléens dans les conditions.
 * `None`, `0` et les conteneurs vides (`''`, `()`, `[]`, `set()`, etc.) s'évaluent à `False`.
 * Les autres nombres, les conteneurs non vides et toute valeur non explicitement fausse s'évaluent à `True`.
 

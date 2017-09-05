@@ -3,7 +3,7 @@
 ## Les autres principes
 
 * Autres principes à appliquer lors de l'écriture d'un code Python.
-* Ils complètent les règles énoncés par la PEP20.
+* Ils complètent les règles énoncées par la PEP20.
 
 ## Keep it simple, stupid (KISS)
 
