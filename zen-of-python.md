@@ -78,9 +78,9 @@ def print_items(obj):
 * Exemple : choix judicieux des noms de fonctions et variables.
 
 ```python
-def say_hello(*names):
-    for name in names:
-        print('Hello', name)
+def reset_password(*users, password=''):
+    for user in users:
+        user.password = password
 ```
 
 ## Special cases aren't special enough to break the rules.

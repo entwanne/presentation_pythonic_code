@@ -65,8 +65,11 @@ name = user.name if user is not None else 'anonymous'
 * Structures plus complexes à base de `zip` et `enumerate`.
 
 ```python
-names = ['Guido', 'Tim', 'Barry', 'Nick']
-ages = [38, 15, 52, 33]
+names = ['Alex', 'Alice', 'Bob']
+ages = [45, 27, 74]
+
+for name, age in zip(names, ages):
+    print(name, age)
 
 for i, (name, age) in enumerate(zip(names, ages)):
     print(i, name, age)

@@ -35,12 +35,12 @@ print('{} + {} = {}'.format(2, 3, 2 + 3))
 * Constructeurs des conteneurs standards.
 
 ```python
->>> names = ['Guido', 'Tim', 'Barry', 'Nick']
->>> ages = [38, 15, 52, 33]
+>>> names = ['Alex', 'Alice', 'Bob']
+>>> ages = [45, 27, 74]
 >>> list(enumerate(names))
-[(0, 'Guido'), (1, 'Tim'), (2, 'Barry'), (3, 'Nick')]
+[(0, 'Alex'), (1, 'Alice'), (2, 'Bob')]
 >>> dict(zip(names, ages))
-{'Tim': 15, 'Barry': 52, 'Guido': 38, 'Nick': 33}
+{'Alex': 45, 'Alice': 27, 'Bob': 74}
 ```
 
 * Hiérarchie des [exceptions *built-in*](https://docs.python.org/3/library/exceptions.html).
@@ -53,14 +53,14 @@ print('{} + {} = {}'.format(2, 3, 2 + 3))
 
 ```python
 >>> from collections import Counter
->>> names = ['Guido', 'Tim', 'Barry', 'Tim', 'Nick',
-...   'Nick', 'Tim']
+>>> names = ['Alice', 'Bob', 'Bob', 'Alice', 'Alex',
+...   'Bob']
 >>> count = Counter(names)
 >>> count
-Counter({'Tim': 3, 'Nick': 2, 'Guido': 1, 'Barry': 1})
->>> count['Nick']
+Counter({'Bob': 3, 'Alice': 2, 'Alex': 1})
+>>> count['Alice']
 2
->>> count['Robert']
+>>> count['Camille']
 0
 ```
 
