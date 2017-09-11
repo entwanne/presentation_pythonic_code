@@ -4,8 +4,7 @@
 
 ## Conclusion
 
-* Ces règles ne sont pas exhaustives, certains points peuvent rester flous.
-* Les idiomes viennent avec le temps, par la pratique.
-* En espérant que vous aurez appronfondi votre connaissance du langage avec cette présentation.
+* Règles non exhaustives.
+* Viennent avec le temps, par la pratique.
 
 # Questions ?

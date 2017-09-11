@@ -2,19 +2,11 @@
 
 ## Les règles de style
 
-* Elles permettent d'assurer la lisibilité du code, par un socle commun à tout projet Python.
-* Elles sont énoncées par la [PEP8](https://www.python.org/dev/peps/pep-0008/) et ne seront pas détaillées ici.
-* Elles concernent la structuration, l'aération, le nommage.
+* Assurent la lisibilité du code.
+* Socle commun à tout projet Python.
+* Énoncées par la [PEP8](https://www.python.org/dev/peps/pep-0008/).
 
 ## Les règles de style
-
-* La cohérence comme premier principe.
-    * S'adapter au style des bibliothèques utilisées.
-* La lisibilité, toujours.
-    * Ne pas appliquer une règle qui nuit à la lisibilité.
-* Les commentaires sont importants pour la compréhension.
-* Les *docstrings* le sont d'autant plus.
-    * Accessibles de plus depuis l'aide d'une fonction (`help`)
 
 ```python
 >>> def addition(a : int, b : int) -> int:
@@ -23,8 +15,3 @@
 ...
 >>> help(addition)
 ```
-
-## Les règles de style
-
-* Outils pour analyser le code et son respect des conventions.
-    * Les deux plus connus sont `pylint` et `flake8`.

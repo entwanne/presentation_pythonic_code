@@ -1,10 +1,10 @@
 % Les secrets d'un code pythonique
-% Antoine Rozo
+% Antoine Rozo (entwanne)
 % 23/09/2017
 
-# Avez-vous déjà vu… un code pythonique ?
-
 # ![](zestedesavoir.png)
+
+# Avez-vous déjà vu… un code pythonique ?
 
 ## Les secrets d'un code pythonique
 
