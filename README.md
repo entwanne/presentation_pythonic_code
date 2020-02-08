@@ -2,6 +2,8 @@
 
 Présentation associée à l'article <https://github.com/entwanne/article_pythonic_code>.
 
+Présentée lors de la PyConFr 2017 : <https://www.youtube.com/watch?v=qafVmsdUyjs>.
+
 ## Lecture
 
 La version PDF est disponible sur la branche [`pdf`](https://github.com/entwanne/presentation_pythonic_code/tree/pdf) : <https://github.com/entwanne/presentation_pythonic_code/blob/pdf/presentation.pdf>.
