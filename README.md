@@ -1,6 +1,10 @@
 # Les secrets d'un code pythonique
 
+_Avez-vous déjà vu… un code pythonique ?_
+
 Présentation associée à l'article <https://github.com/entwanne/article_pythonic_code>.
+
+Présentée lors de la PyConFr 2017 : <https://www.youtube.com/watch?v=qafVmsdUyjs>.
 
 ## Lecture
 
